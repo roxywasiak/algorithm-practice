@@ -1,2 +1,6 @@
 // your code goes here
-let number;
+const oddOrEven = (number) => (number % 2 === 0 ? "even" : "odd");
+
+module.exports = {
+  oddOrEven,
+};
