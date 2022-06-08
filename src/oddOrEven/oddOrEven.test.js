@@ -1,5 +1,8 @@
 describe("oddOrEven", () => {
-  it("should return a string even for the number 30", () => {});
+  it("should return a string even for the number 30", () => {
+    const expected = "even";
+    const result = "30";
+  });
 
   it("should return a string odd for the number 17", () => {});
 
